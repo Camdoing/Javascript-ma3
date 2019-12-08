@@ -1,0 +1,50 @@
+JavaScript MA03
+----------------
+Level 2
+
+1. In your own words, describe what JavaScript Code Style is.
+This is a good way to quality check a code. There are many code style programs out there, but the main common feature is that, they let you know if there are any errors in the code.
+
+2. What is a Regular Expression?
+These are patterns used to match character combinations in strings. In JavaScript regular expressions are also objects.
+
+3. What does the .random() method do?
+This method is a method for producing random numbers. When it's executed, it returns a random number that can be anywhere between 0 and 1. The 0 is included and 1 is excluded.
+
+4. What does the .sort() method do?
+This method sorts an array alphabetically. The method accepts an optional argument which is a function that compares two elements of the array.
+
+5. What does the .reverse() method do?
+This method reverses an array in place. The first array element becomes the last and the last becomes the first.
+
+6. List two examples of bad JavaScript code.
+Here are two random examples:
+
+Example 1:
+//bad:
+var someVar1 = 'a';
+var someVar2 = 'b';
+var someVar3 = 'c';
+ 
+//good:
+var someVar1 = 'a',
+    someVar2 = 'b',
+    someVar3 = 'c';
+
+Example 2:
+//bad:
+var Color = 'red';
+var SomeNumber = 234;
+var AnArray = [1,2,3];
+var Foo = { bar: 123 };
+
+Variable names should only begin with a capital if they’re pointing to constructor functions.
+
+7. What data types can a JSON object contain?
+At least 6 data types; string, number, object, array, boolean and null. JSON values cannot be a function, a date or undefined.
+
+8. What is minifying JavaScript Code?
+This is a process of minimizing code and markup in web pages. It does reduce load times and bandwidth usage on websites and improves site speed and accessibility. The user experience gets better.
+
+9. What is a global variable?
+Global variables are variables that are defined outside of any function, method, closure, or type context.
